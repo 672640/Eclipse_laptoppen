@@ -1,0 +1,10 @@
+package oppgåve1a;
+
+public class ParentesSjekker {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

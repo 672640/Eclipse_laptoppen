@@ -1,0 +1,22 @@
+package oppgåve_2;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String input = "rekningar";
+		if(isPalindrome(input)) {
+			System.out.println(input + " er eit palindrome!");
+		} else {
+			System.out.println(input + " er ikkje eit palindrome!");
+		}
+	}
+	public static boolean isPalindrome(String aString) {
+	    if (aString.isBlank() || aString.length() == 1) {
+	        return true;
+	    } else if (aString.charAt(0) == aString.charAt(aString.length() - 1)) {
+	        return isPalindrome(aString.substring(1, aString.length() - 1));
+	    }
+	    return false;
+	}
+
+}

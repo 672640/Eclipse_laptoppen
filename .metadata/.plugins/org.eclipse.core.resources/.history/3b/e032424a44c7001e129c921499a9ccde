@@ -1,0 +1,17 @@
+package oppgåve_2;
+
+public class Summen_av_naturlege_tal {
+	public static void main(String[] args) {
+		
+		System.out.println(Sum(10));
+		
+			
+		}
+		public static int Sum(int n) {
+			
+			if(n == 0) {
+				return 0;
+			}
+			return n + Sum(n - 1);
+	}
+}

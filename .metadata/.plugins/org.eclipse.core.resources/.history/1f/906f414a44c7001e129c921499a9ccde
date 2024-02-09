@@ -1,0 +1,16 @@
+package oppgåve_2;
+
+public class Fibonacci_Ikkje_rekursiv {
+	public static void main(String[] args) {
+		fibonacciTall(4);
+	}
+	
+	public void fibonacciTall(int n) {
+		if(n <= 1) {
+			System.out.println(1);
+		}
+		for(int i = 2; i <= n; i++) {
+			System.out.println((n + 1) + (n + 2));
+		}
+	}
+}
