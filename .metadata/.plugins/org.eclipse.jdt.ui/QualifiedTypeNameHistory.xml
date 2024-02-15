@@ -12,4 +12,7 @@
     <fullyQualifiedTypeName name="no.hvl.data102.filmarkiv.adt.FilmarkivADT"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+    <fullyQualifiedTypeName name="oppgåve1.Stabel"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
